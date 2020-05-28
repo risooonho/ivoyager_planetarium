@@ -33,7 +33,7 @@ const EXTENSION_VERSION := "0.0.7-alpha dev"
 const EXTENSION_VERSION_YMD := 20200519
 
 const USE_THREADS := true # false for debugging; HTML5 overrides false
-const IS_ELECTRON_APP := false
+const IS_ELECTRON_APP := true
 
 var _is_html5: bool = OS.has_feature('JavaScript')
 var _is_gles2: bool = ProjectSettings.get_setting("rendering/quality/driver/driver_name") == "GLES2"
